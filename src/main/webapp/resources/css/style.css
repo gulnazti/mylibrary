@@ -1,0 +1,58 @@
+body {
+    padding: 0 30px 30px;
+}
+
+header {
+    height: 72px !important;
+}
+
+a {
+    outline: none;
+}
+
+.logo a {
+    text-decoration: none !important;
+}
+
+.logo a:hover {
+    color: green;
+}
+
+#addbook {
+    height: auto;
+    padding: 18px 0;
+}
+
+#search {
+    padding: 0;
+    background: none;
+    border: none;
+    height: auto;
+    text-align: right;
+}
+
+.books {
+    max-height: 500px !important;
+}
+
+.books .id {
+    max-width: 5% !important;
+}
+
+.books .title {
+    min-width: 30% !important;
+}
+
+#pagination {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#add-form input[type="text"],
+#add-form textarea{
+    width: 85%;
+}
+
+#add-form textarea {
+    min-height: 150px;
+}
